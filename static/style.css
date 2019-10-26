@@ -1,0 +1,92 @@
+.black-background {background-color:#000000;}
+.white {color:#ffffff;}
+
+.title1 {
+  text-align: center;
+}
+
+h1 {
+  color: violet;
+}
+
+.logo {
+  padding-top: 100px;
+  padding-bottom: 0px;
+  padding-left: 450px;
+  padding-right: 0px;
+}
+
+
+body {
+  background-color: #ebfcff !important;
+}
+
+.go {
+  text-align: center;
+  padding-top: 100px;
+  padding-left: 500px;
+  width: 100px;
+  height: 100px;
+
+}
+
+.about {
+  text-align: center;
+  padding-top: 0px;
+  padding-left: 600px;
+  width: 100px;
+  height: 100px;
+
+}
+
+.btn-danger {
+  border-color: #1b4478 !important;
+  background-color: #ebfcff !important;
+  color: #1b4478 !important;
+}
+
+.btn-danger:hover {
+  border-color: #1b4478 !important;
+  background-color: #d6f9ff !important;
+  color: #1b4478 !important;
+}
+
+/* div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: homeAni;
+  animation-duration: 4s;
+} */
+
+.triangle-container {
+  animation-name: homeAni;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+
+}
+
+/* @keyframes homeAni {
+  0%   {color: red;}
+  25%  {color: yellow;}
+  50%  {color: blue;}
+  100% {color: green;}
+} */
+
+/* @keyframes homeAni
+{
+0% {transform: rotate(0deg);left:0px;}
+100% {transform: rotate(-360deg);left:0px;}
+} */
+
+
+}
+
+@keyframes homeAni {
+    0% { transform: rotate(0deg); }
+    100% {  transform: rotate(359deg); }
+}
+#star {
+    animation: spin 2s linear infinite;
+
+}
